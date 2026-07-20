@@ -1,0 +1,13 @@
+package  test.java;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.TestInstance;
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+public class comprasTest {
+
+	 boolean datosCargados;
+	 @BeforeAll
+     void setUp() {
+
+	 }
+
+}

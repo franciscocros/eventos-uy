@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 28 18:50:17 ART 2025
+jaxws-rt-4.0.2-sources.jar>central=
+jaxws-rt-4.0.2.jar>central=
+jaxws-rt-4.0.2.pom>central=

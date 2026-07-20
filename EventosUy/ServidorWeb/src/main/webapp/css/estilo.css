@@ -1,0 +1,213 @@
+.bordes{
+	border: 1px solid rgb(209, 204, 204);
+}
+
+.c1{
+	background-color: #1976d2;	
+}
+
+.imgorigin{
+	object-fit: fill;
+	border: 1px solid rgb(209, 204, 204);
+}
+
+.c2{
+	background-color: #2196f2;
+}
+
+.c3{
+	background-color: #1e88e5;
+}
+
+.c4{
+	background-color:#42a5f5;
+}
+
+.c5{
+	background-color: #7fb3d5;
+}
+
+.c6{
+	background-color:  #5499c7;	
+}
+
+.bordesDesc{
+	border: 1px solid  #f6f9fa;
+	border-radius:15px 15px 0 0;
+}
+.desc{
+	font-family: cursive;
+	font-size: clamp(1.3rem, 1.5vw, 1.2rem);
+}
+
+.resptext{
+	font-size: clamp(0.9rem, 1.8vw, 2.5rem);
+	margin: 2px;
+}
+
+.itemBox{
+		font-size: clamp(1.3rem, 4vw, 1.5rem);
+}
+.itembox:hover {
+  background-color: #808da4;   /* color al pasar el mouse */
+  border-radius: 40px;     
+}
+
+.itembox a {
+  display: block;              /* ocupa todo el div para que el hover se note */       /* color del texto */
+  text-decoration: none;       /* sin subrayado */
+}
+.itembox a:hover {
+  display: block;       
+  color: #222323;       /* ocupa todo el div para que el hover se note */       /* color del texto */
+  text-decoration: none;       /* sin subrayado */
+}
+.fuente1{
+	font-family: Cambria,Georgia,serif; 
+}
+
+.ajustarTexto{
+	white-space:initial;
+	word-break: normal;
+}
+
+.fondo{
+	background-color: #f1ecec;
+}
+.subt{
+	font-weight: bold;
+	font-family: Cambria,Georgia,serif; 
+}
+
+.letrach{
+	font-size:18px;
+}
+.sinSubrayado{
+	text-decoration:none;
+	color:black;
+}
+
+.colorFondoSuave{
+	background-color:#5499c7;
+}
+
+.cLetra{
+	color:black;
+}
+.cLetraRelleno{
+	color:white;
+	font-family: Cambria,Georgia,serif; 
+}
+.altaUsuLetrabis{
+	font-size:small;
+}
+.altaUsuLetra{
+	font-size:small;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-family: Cambria,Georgia,serif; 
+}
+.fondosuave{
+	background-color: #faf4f4;
+	border: 1px solid #f6ecec;
+}
+.mlogin{
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.negrita{
+	 font-weight: bold;
+}
+.rb{
+	border-radius:0 0 15px 15px;
+}
+.rt{
+	border-radius:15px 15px 0 0;
+}
+.rts{
+	border-radius:12px 12px 0 0;
+}
+
+.link{
+	font-weight: bold;
+	color:black;
+	font-size: small;
+	text-decoration:none;
+	font-size:20px;
+}
+.mid{
+	margin-left:1px;
+	margin-right:1px;
+}
+a:hover {
+  text-decoration: underline;	
+  color: rgb(26, 95, 180);
+  cursor: pointer;
+ 
+}
+a.barra:hover {
+  transform: scale(1.2);
+  border:1px;
+  color: blue;
+}
+div.soloTituloLink {
+	border-radius:15px 15px 15px 15px;
+}
+a.soloTituloLink {
+	font-weight: bold;
+	color:white;
+}
+a.sinBorde:hover{
+	border: 0px;
+}
+div.conBorde:hover{
+	border:1px solid black;	
+	cursor: pointer;
+}
+p.menu:hover{
+	font-weight: bold;
+	
+}
+p.menosMargen{
+	margin-bottom: 2px;
+}
+.btnbarra:hover{
+	border-color: transparent;
+}
+
+.formCorrecto{
+	color: #1ed12d;
+	opacity:1;
+}
+
+.formInCorrecto{
+	color: #F54927;
+	opacity:1;
+}
+
+
+
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+	color: antiquewhite;
+	border-color: transparent;
+  }
+/* Cambiar el orden en dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column; /* Cambiar a columna en móvil */
+    }
+    
+.sidenav {
+        order: 2; /* Mover el div al final */
+        margin-top: 50px; 
+    }
+.main-content {
+        order: 1; /* Contenido principal primero */
+    }
+}
+
+input[readonly] {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}

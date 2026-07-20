@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+               xmlns:arr="http://jaxb.dev.java.net/array"
+               jaxb:version="2.1">
+  <jaxb:bindings schemaLocation="http://127.0.0.1:9128/evento?xsd=2" node="/xs:schema">
+    <!-- Cambiar 'stringArray' por el nombre exacto del complexType en ?xsd=2 -->
+    <jaxb:bindings node="//xs:complexType[@name='stringArray']">
+      <jaxb:javaType name="com.sun.xml.fastinfoset.util.StringArray" xmlType="arr:stringArray"/>
+    </jaxb:bindings>
+  </jaxb:bindings>
+</jaxb:bindings>

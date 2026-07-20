@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 28 19:26:19 ART 2025
+ServidorCentral-0.0.1-SNAPSHOT-jar-with-dependencies.jar>=
+ServidorCentral-0.0.1-SNAPSHOT.jar>=
+ServidorCentral-0.0.1-SNAPSHOT.pom>=

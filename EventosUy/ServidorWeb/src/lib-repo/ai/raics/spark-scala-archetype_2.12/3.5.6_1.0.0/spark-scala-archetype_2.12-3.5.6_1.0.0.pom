@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>ai.raics</groupId>
+    <artifactId>spark-scala-archetype-parent</artifactId>
+    <version>3.5.6_1.0.0</version>
+  </parent>
+
+  <artifactId>spark-scala-archetype_2.12</artifactId>
+  <version>3.5.6_1.0.0</version> <!-- independent from parent and sibling -->
+  <packaging>maven-archetype</packaging>
+  <description>Archetype for Spark project (Scala 2.12)</description>
+  <name>spark-scala-archetype_2.12</name>
+</project>
