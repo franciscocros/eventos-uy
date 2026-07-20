@@ -84,24 +84,6 @@ Versión adaptada para dispositivos móviles (responsive) que consume los mismos
 
 ---
 
-## Ejecución
-
-### Requisitos
-
-- Java JDK 21
-- Maven
-- Apache Tomcat
-
-Compilar cada módulo utilizando Maven.
-
-```bash
-mvn clean install
-```
-
-Desplegar los módulos web generados sobre Apache Tomcat.
-
----
-
 ## Objetivos del proyecto
 
 Durante el desarrollo se aplicaron conceptos de:
